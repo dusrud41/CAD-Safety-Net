@@ -1,0 +1,19 @@
+dataset,image_path,true_label,predicted_label,confidence_score
+blur,../../data/failure_cases/blur/benign/Bengin case (25).jpg,benign,malignant,0.978
+blur,../../data/failure_cases/blur/benign/Bengin case (55).jpg,benign,malignant,0.9596
+blur,../../data/failure_cases/blur/benign/Bengin case (60).jpg,benign,malignant,0.9981
+blur,../../data/failure_cases/blur/benign/Bengin case (66).jpg,benign,malignant,0.9174
+blur,../../data/failure_cases/blur/normal/Normal case (115).jpg,normal,malignant,0.9813
+blur,../../data/failure_cases/blur/normal/Normal case (132).jpg,normal,malignant,0.9784
+blur,../../data/failure_cases/blur/normal/Normal case (291).jpg,normal,malignant,0.9505
+blur,../../data/failure_cases/blur/normal/Normal case (305).jpg,normal,malignant,0.9119
+blur,../../data/failure_cases/blur/normal/Normal case (306).jpg,normal,malignant,0.9135
+blur,../../data/failure_cases/blur/normal/Normal case (91).jpg,normal,malignant,0.9809
+low_quality,../../data/failure_cases/low_quality/benign/Bengin case (25).jpg,benign,malignant,0.9665
+low_quality,../../data/failure_cases/low_quality/benign/Bengin case (55).jpg,benign,malignant,0.9615
+low_quality,../../data/failure_cases/low_quality/benign/Bengin case (60).jpg,benign,malignant,0.9924
+low_quality,../../data/failure_cases/low_quality/normal/Normal case (115).jpg,normal,malignant,0.9884
+low_quality,../../data/failure_cases/low_quality/normal/Normal case (132).jpg,normal,malignant,0.9765
+contrast_mismatch,../../data/failure_cases/contrast_mismatch/benign/Bengin case (70).jpg,benign,normal,0.9006
+contrast_mismatch,../../data/failure_cases/contrast_mismatch/benign/Bengin case (71).jpg,benign,normal,0.9031
+contrast_mismatch,../../data/failure_cases/contrast_mismatch/benign/Bengin case (72).jpg,benign,normal,0.9031

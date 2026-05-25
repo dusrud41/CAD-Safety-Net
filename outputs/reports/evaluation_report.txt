@@ -1,0 +1,87 @@
+
+===================================
+Medical AI Safety Evaluation Report
+===================================
+
+1. Base Classification Performance
+-----------------------------------
+
+Original Accuracy:
+100.00%
+
+Blur Accuracy:
+82.53%
+
+Noise Accuracy:
+81.33%
+
+Low Quality Accuracy:
+84.34%
+
+Contrast Mismatch Accuracy:
+95.18%
+
+
+2. Silent Failure Analysis
+-----------------------------------
+
+Total Silent Failures:
+18
+
+Highest Confidence Failure:
+Dataset: blur
+
+Confidence:
+0.9780
+
+
+3. Tradeoff Analysis
+-----------------------------------
+
+Recommended Threshold:
+0.95
+
+Detection Rate:
+0.8867
+
+Reject Rate:
+0.2771
+
+
+4. Key Findings
+-----------------------------------
+
+- The model achieved high accuracy
+  on the original dataset.
+
+- Noise corruption caused
+  significant performance degradation.
+
+- High-confidence incorrect predictions
+  (silent failures) were observed.
+
+- Confidence alone was insufficient
+  for reliable medical AI prediction.
+
+- MSP-based OOD detection
+  showed limitations.
+
+- Multi-factor safety validation
+  improved robustness.
+
+
+5. Final Conclusion
+-----------------------------------
+
+This project demonstrates that
+medical AI systems require
+more than classification accuracy.
+
+Reliable deployment requires:
+- confidence analysis
+- uncertainty estimation
+- image quality validation
+- OOD detection
+- integrated safety decision systems
+
+===================================

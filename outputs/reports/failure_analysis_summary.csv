@@ -1,0 +1,6 @@
+dataset,accuracy,average_confidence
+original,100.0,0.982
+blur,82.53,0.9099
+noise,81.33,0.7811
+low_quality,84.34,0.9146
+contrast_mismatch,95.18,0.9591
